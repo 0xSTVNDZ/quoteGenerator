@@ -1,50 +1,31 @@
-<!-- ABOUT THE PROJECT -->
-## About The Project
+## Random Quote Generator
 
-[Demo](https://example.com)
+[Demo](https://0xstvndz.github.io/quoteGenerator/)
 
 ### Built With
 
-* []()
-* []()
-* []()
-
+* HTML
+* CSS
+* JS
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
-
-### Prerequisites
+git clone https://github.com/0xSTVNDZ/quoteGenerator.git
 
 
-
-### Installation
-
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Features
-- 
+- Uses a random quote API by https://github.com/lukePeavey/quotable
+- Interactive Buttons to copy to clipboard and to tweet
 
 
 ## Project Status
-Project is: _completed_ _inprogress_ 
-
-
-## Room for Improvement
-- 
+Project is: _inprogress_ 
 
 To do:
-- 
+- Customize it more
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -58,16 +39,11 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 
-
-<!-- CONTACT -->
 ## Contact
 
 Steve - Contact me via Twitter ! [@0xSTVNDZ](https://twitter.com/0xSTVNDZ) 
 
 
-<!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 
-* []()
-* []()
-* []()
+* https://www.youtube.com/watch?v=I0v9ZOY3_0k
