@@ -6,36 +6,38 @@
         <title>Quote Generator</title>
         <link rel="stylesheet" href="./css/styles.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--import font awesome library-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <div class="wrapper">
+        <div class="wrapper" id="quote-box">
             <header>Quote of the Day</header>
             <div class="content">
-                <div class="quote-area">
+                <div class="quote-area" id="text">
                     <i class="fas fa-quote-left"></i>
-                    <p class="quote">Something something</p>
+                    <p class="quote">The kingdom of God is within you.</p>
                     <i class="fas fa-quote-right"></i>
                 </div>
-                <div class="author">
+                <div class="author" id="author">
                     <span>__</span>
-                    <span class="name">Author</span>
+                    <span class="name">Unknown</span>
                 </div>
             </div>
             <div class="buttons">
                 <div class="features">
                     <ul>
                         <li class="copy"><i class="fas fa-copy"></i></li>
-                        <li class="twitter"><i class="fab fa-twitter"></i></li>
+                        <li class="twitter"><a href="twitter.com/intent/tweet" id="tweet-quote"><i class="fab fa-twitter"></i></a></li>
                     </ul>
-                    <button>New Quote</button>
+                    <button id="new-quote">New Quote</button>
                 </div>
             </div>
         </div>
     </body>
 
     <script src="script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
 </html>
